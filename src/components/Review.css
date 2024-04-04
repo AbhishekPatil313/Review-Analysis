@@ -1,0 +1,62 @@
+.review {
+    border: 2px solid #333030;
+    border-radius: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    justify-content:baseline;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); 
+     }
+  
+  .review-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .reviewer-info {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+  }
+  
+  .source-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  }
+  
+  .review-date {
+    font-size: 12px;
+  }
+  
+  .review-content {
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .review-rating {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size:large;
+    padding-bottom:   15px;
+    padding-left: 10px;
+  }
+  .Positive{
+    background-color: #D9F2DD ;
+  }
+  .Negative{
+    background-color: #F2DBD9;
+  }
+  
+  .highlight{
+    background-color: #F2DBD9;
+  }
